@@ -8,7 +8,7 @@ namespace MPowerMiniUssd.Models
 {
     public class Util
     {
-        public static string UnlockKey = "6KZ4HJFEDG6XHKVKPX9Q2ZYTLZ4CV4QG";
+        public static string UnlockKey = "";
         public static MPower MPowerInstance(string mobileNumber)
         {
             return new MPower("0" + mobileNumber.Substring(3));
